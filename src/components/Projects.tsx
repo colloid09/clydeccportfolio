@@ -8,19 +8,20 @@ import { DiCss3, DiJavascript } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
 import { FaPhp } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
+import vrsm from '../components/ProjectsImages/vrsm.png'
 
 const projects = [
   {
     title: 'Vehicle Rental System',
     description: 'The Vehicle Rental System is a web-based application designed to simplify the process of renting vehicles. Built using HTML, CSS, and JavaScript for a dynamic and user-friendly front-end interface, the system is powered by PHP and MySQL for robust back-end operations and data management.',
-    image: 'https://private-user-images.githubusercontent.com/191140990/395858690-d94273f7-c544-4e04-8087-dab9a197b77e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQyNjMwOTYsIm5iZiI6MTczNDI2Mjc5NiwicGF0aCI6Ii8xOTExNDA5OTAvMzk1ODU4NjkwLWQ5NDI3M2Y3LWM1NDQtNGUwNC04MDg3LWRhYjlhMTk3Yjc3ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIxNVQxMTM5NTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZGRiMDczNDE2NGI3NDM5Nzc5MDFiMjI1N2ZmNjIzNjk2ODI2Y2FjZjc1ODFiMzY0OGQ0NzdlMzEzYWZjMTliJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Mm6DzZDEBbFtsPVWcrg9rdoF7BX6Zm-USKNHs5OisAM',
+    image: 'https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/301cc8d3-9977-4292-87b1-2792fcd30704.jpeg?auto=format&q=50',
     technologies: ['html', 'css', 'js', 'bootstrap','MySql', 'php'],
     liveUrl: 'https://github.com/colloid09/vehicle-rental-system'
   },
   {
     title: 'Image To Sketch Converter',
     description: 'Image-To-Sketch Converter is developed using python. Converts the colored image into a grayscale sketch',
-    image: 'https://private-user-images.githubusercontent.com/191140990/393912267-35dfc835-414c-482a-95ed-7a83265c1757.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQyMzQyMjAsIm5iZiI6MTczNDIzMzkyMCwicGF0aCI6Ii8xOTExNDA5OTAvMzkzOTEyMjY3LTM1ZGZjODM1LTQxNGMtNDgyYS05NWVkLTdhODMyNjVjMTc1Ny5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMjE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTIxNVQwMzM4NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05OGRkYTYzMmE4NjI3NjY3MWI3ZmJkMTQ2ZjY2Y2Q0YzFiOTNiNjkzYWRlNmY1YTAyMjAyMjEwZjIwY2Q2MzgzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.WHM_2QvzkpFQe9rWZM1vzjOsNL2krL1qdnaJk7E4ssA',
+    image: 'https://www.techpocket.org/wp-content/uploads/2023/07/Photo-To-Sketch-Converter.jpg',
     technologies: ['Python'],
     liveUrl: 'https://github.com/colloid09/Image-to-Sketch-converter?tab=readme-ov-file'
   },

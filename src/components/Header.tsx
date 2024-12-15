@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
+import { siteConfig } from '../constants/siteConfig';
+import pdf from '../components/Resume/clyderesume.pdf'
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +12,7 @@ export function Header() {
         <div className="mx-auto max-w-4xl">
           <div className="backdrop-blur-md bg-gray-900/50 rounded-full px-4 sm:px-6 py-3 flex items-center justify-between shadow-lg">
             {/* Logo */}
-            <a href="#home" className="text-xl font-semibold text-white">
+            <a href="#Hero" className="text-xl font-semibold text-white">
               clyde charles
             </a>
 
@@ -34,10 +36,10 @@ export function Header() {
                 About
               </a>
               <a 
-                href="#contact" 
+                href={pdf} 
                 className="px-6 py-2 text-white rounded-full bg-purple-600 transition-all duration-300 hover:bg-purple-700 hover:shadow-lg hover:shadow-purple-500/20 hover:-translate-y-0.5"
               >
-                Contact
+               Resume
               </a>
             </div>
           </div>

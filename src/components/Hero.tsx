@@ -5,6 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import Lottie from 'lottie-react';
 import techani from "../components/images/techani.json";
 import { FaXTwitter } from "react-icons/fa6";
+import pdf from '../components/Resume/clyderesume.pdf'
 
 export function Hero() {
   return (
@@ -50,13 +51,13 @@ export function Hero() {
             {/* Buttons */}
             <div className="flex gap-4 pt-6 justify-center lg:justify-start flex-wrap">
               <a
-                href="#contact"
+                href={`mailto:${siteConfig.owner.email}`} 
                 className="px-8 py-3 rounded-full border-2 border-pink-500 text-white hover:bg-pink-500/10 transition-colors inline-flex items-center gap-2"
               >
                 CONTACT ME
               </a>
               <a
-                href="#"
+                href={pdf}
                 className="px-8 py-3 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 text-white hover:opacity-70 transition-opacity inline-flex items-center gap-2"
               >
                 GET RESUME

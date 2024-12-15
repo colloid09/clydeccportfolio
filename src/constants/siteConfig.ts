@@ -1,7 +1,7 @@
 export const siteConfig = {
   owner: {
     name: 'Clyde Charles Coelho',
-    email: 'contact@example.com',
+    email: 'clydecc420@gmail.com',
     role: 'Frontend Developer',
     bio: 'Passionate about creating beautiful and user-friendly web experiences. Specialized in React, TypeScript, and modern web technologies.',
     about: 'I am a frontend developer with a passion for creating intuitive and performant web applications. With years of experience in modern web technologies, I focus on delivering high-quality solutions that combine excellent user experience with clean, maintainable code.',
