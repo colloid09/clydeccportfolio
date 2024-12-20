@@ -26,13 +26,13 @@ export function Header() {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#home" className="text-gray-300 hover:text-white transition-colors">
+              <a href="home" className="text-gray-300 hover:text-white transition-colors">
                 Home
               </a>
-              <a href="#projects" className="text-gray-300 hover:text-white transition-colors">
+              <a href="projects" className="text-gray-300 hover:text-white transition-colors">
                 Projects
               </a>
-              <a href="#about" className="text-gray-300 hover:text-white transition-colors">
+              <a href="about" className="text-gray-300 hover:text-white transition-colors">
                 About
               </a>
               <a 
@@ -66,18 +66,18 @@ export function Header() {
                 Projects
               </a>
               <a 
-                href="#about" 
+                href="#about"
                 className="text-gray-300 hover:text-white transition-colors px-4 py-2 rounded-lg hover:bg-gray-800"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </a>
               <a 
-                href="#contact" 
+                href={pdf} 
                 className="text-white px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-700 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contact
+                Resume
               </a>
             </div>
           </div>
