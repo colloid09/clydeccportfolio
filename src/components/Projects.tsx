@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'Vehicle Rental System',
     description: 'The Vehicle Rental System is a web-based application designed to simplify the process of renting vehicles. Built using HTML, CSS, and JavaScript for a dynamic and user-friendly front-end interface, the system is powered by PHP and MySQL for robust back-end operations and data management.',
-    image: '../ProjectImages/vrsm.png',
+    image: '../ProjectsImages/vrsm.png',
     technologies: ['html', 'css', 'js', 'bootstrap','MySql', 'php'],
     liveUrl: 'https://github.com/colloid09/vehicle-rental-system'
   },
