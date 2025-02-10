@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'Vehicle Rental System',
     description: 'The Vehicle Rental System is a web-based application designed to simplify the process of renting vehicles. Built using HTML, CSS, and JavaScript for a dynamic and user-friendly front-end interface, the system is powered by PHP and MySQL for robust back-end operations and data management.',
-    image: '../ProjectsImages/vrsm.png',
+    image: 'https://www.fleetroot.com/wp-content/uploads/2020/08/20-features-in-car-rental-software-in-2020-1.jpg',
     technologies: ['html', 'css', 'js', 'bootstrap','MySql', 'php'],
     liveUrl: 'https://github.com/colloid09/vehicle-rental-system'
   },
