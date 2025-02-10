@@ -29,7 +29,7 @@ export function Header() {
               <a href="home" className="text-gray-300 hover:text-white transition-colors">
                 Home
               </a>
-              <a href="projects" className="text-gray-300 hover:text-white transition-colors">
+              <a href="#projects" className="text-gray-300 hover:text-white transition-colors">
                 Projects
               </a>
               <a href="about" className="text-gray-300 hover:text-white transition-colors">
