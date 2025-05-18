@@ -14,14 +14,14 @@ const projects = [
   {
     title: 'Vehicle Rental System',
     description: 'The Vehicle Rental System is a web-based application designed to simplify the process of renting vehicles. Built using HTML, CSS, and JavaScript for a dynamic and user-friendly front-end interface, the system is powered by PHP and MySQL for robust back-end operations and data management.',
-    image: 'vrsm',
+    image: 'https://www.vevs.com/car-rental-software/website-templates.php',
     technologies: ['html', 'css', 'js', 'bootstrap','MySql', 'php'],
     liveUrl: 'https://github.com/colloid09/vehicle-rental-system'
   },
   {
     title: 'Image To Sketch Converter',
     description: 'Image-To-Sketch Converter is developed using python. Converts the colored image into a grayscale sketch',
-    image: 'https://private-user-images.githubusercontent.com/191140990/393912267-35dfc835-414c-482a-95ed-7a83265c1757.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc1NDM4ODAsIm5iZiI6MTc0NzU0MzU4MCwicGF0aCI6Ii8xOTExNDA5OTAvMzkzOTEyMjY3LTM1ZGZjODM1LTQxNGMtNDgyYS05NWVkLTdhODMyNjVjMTc1Ny5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxOFQwNDQ2MjBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wOTFiZjNhYTI4ZGE3MzFmNjU2YjQyY2FmZjM4MGM5MzI4ZWM2ZjJjNmY2YjA3MGYwNzNmOTI2ZjRmYTkzOGNmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.LewhQlfmwXBMLhQATNLaa2uIzhbOkr4dJIur9-qPNv0',
+    image: 'https://www.fotor.com/features/colorize-photo/',
     technologies: ['Python'],
     liveUrl: 'https://github.com/colloid09/Image-to-Sketch-converter?tab=readme-ov-file'
   },
