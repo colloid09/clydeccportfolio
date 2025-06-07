@@ -8,7 +8,8 @@ import { DiCss3, DiJavascript } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
 import { FaPhp } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
-import vrsm from './ProjectsImages/vrsm.png'
+import vrsm from './ProjectsImages/vrsm.png';
+import imgtosk from './ProjectsImages/imagetosketch.jpg';
 
 const projects = [
   {
@@ -21,7 +22,7 @@ const projects = [
   {
     title: 'Image To Sketch Converter',
     description: 'Image-To-Sketch Converter is developed using python. Converts the colored image into a grayscale sketch',
-    image: 'https://www.fotor.com/features/colorize-photo/',
+    image: imgtosk,
     technologies: ['Python'],
     liveUrl: 'https://github.com/colloid09/Image-to-Sketch-converter?tab=readme-ov-file'
   },
