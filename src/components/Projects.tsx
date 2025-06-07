@@ -8,7 +8,7 @@ import { DiCss3, DiJavascript } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
 import { FaPhp } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
-import {vrsm} from '../components/ProjectsImages/vrsm.png'
+import vrsm from '../components/ProjectsImages/vrsm.png'
 
 const projects = [
   {
