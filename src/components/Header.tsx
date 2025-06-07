@@ -3,6 +3,8 @@ import { Menu, X } from 'lucide-react';
 import { siteConfig } from '../constants/siteConfig';
 import pdf from '../components/Resume/clyderesume.pdf';
 import {about} from './About.tsx'; 
+import {hero} from './Hero.tsx';
+import {project} from './Projects.tsx';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,13 +29,13 @@ export function Header() {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href={about} className="text-gray-300 hover:text-white transition-colors">
+              <a href={hero} className="text-gray-300 hover:text-white transition-colors">
                 Home
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href={project} className="text-gray-300 hover:text-white transition-colors">
                 Projects
               </a>
-              <a href="#" className="text-gray-300 hover:text-white transition-colors">
+              <a href={about} className="text-gray-300 hover:text-white transition-colors">
                 About
               </a>
               <a 
@@ -53,21 +55,21 @@ export function Header() {
           `}>
             <div className="flex flex-col space-y-4">
               <a 
-                href="#home" 
+                href={hero} 
                 className="text-gray-300 hover:text-white transition-colors px-4 py-2 rounded-lg hover:bg-gray-800"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </a>
               <a 
-                href="#projects" 
+                href={project} 
                 className="text-gray-300 hover:text-white transition-colors px-4 py-2 rounded-lg hover:bg-gray-800"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Projects
               </a>
               <a 
-                href="#about"
+                href={about}
                 className="text-gray-300 hover:text-white transition-colors px-4 py-2 rounded-lg hover:bg-gray-800"
                 onClick={() => setIsMenuOpen(false)}
               >
