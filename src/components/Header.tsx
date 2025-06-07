@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { siteConfig } from '../constants/siteConfig';
-import pdf from '../components/Resume/clyderesume.pdf'
+import pdf from '../components/Resume/clyderesume.pdf';
+import {about} from './About.tsx'; 
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
