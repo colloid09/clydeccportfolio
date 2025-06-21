@@ -26,6 +26,13 @@ const projects = [
     technologies: ['Python'],
     liveUrl: 'https://github.com/colloid09/Image-to-Sketch-converter?tab=readme-ov-file'
   },
+  {
+    title: 'Image To Sketch Converter',
+    description: 'Image-To-Sketch Converter is developed using python. Converts the colored image into a grayscale sketch',
+    image: imgtosk,
+    technologies: ['Python'],
+    liveUrl: 'https://github.com/colloid09/Image-to-Sketch-converter?tab=readme-ov-file'
+  },
 
 ];
 
